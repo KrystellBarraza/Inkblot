@@ -1,7 +1,7 @@
 # Inkblot 
 Inspired by the Rorschach Test, Inkblot uses HTML5's canvas API to create fluid illustrations with bilateral symmetry.
 
-[Visit website here](https://krystellbarraza.github.io/Iceland_Travel/)
+[Visit website here](https://krystellbarraza.github.io/Inkblot/)
 
 
 ## Screenshots
