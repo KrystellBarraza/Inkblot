@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Inkblot</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="images.favicon.png" />
+    </head>
+
+    <body> 
+        <nav class= "menu">
+            <h1 class="underline"><a href="index.html">Inkblot</a></h1>
+            <h3 class="underline"><a href="about.html">About Project</a></h3>
+            <h3 class="underline"><a href="">View Github Code</a></h3>
+            <h3>• • •</h3>
+            <h3 id="clear" value="Clear">Reset Canvas</h3>
+        </nav>
+        
+        <canvas id="canvas"></canvas>
+        
+        <div id="instructions">
+            <h2>Click and drag to create an Inkblot</h2>
+        </div>
+        <footer>
+            <h4 class="underline"><a href="https://www.krystellbarraza.com">Back to Krystell's Portfolio</a></h4>
+            <h4>• • •</h4>
+        </footer>
+                  
+        <!-- Load the CDN first -->
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+        <!-- IF CDN fails to load, serve up the local version -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
+
